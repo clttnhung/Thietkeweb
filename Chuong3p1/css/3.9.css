@@ -1,0 +1,36 @@
+div{background-color:darkgrey;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 2% ;
+}
+h2{font-size: 3vw;}
+span{
+    white-space: nowrap;
+    font-size: 3vw;
+}
+img{
+    width: 10%;
+    margin-top: 20px;
+    mix-blend-mode: multiply;
+}
+input{
+    border: none;
+    background-color: white;
+    font-size: 100%;
+    width: 50%;
+    padding: 1% 5%;
+}
+body{
+    text-align: center;
+}
+button{
+    border: none;
+    color: white;
+    background-color:orangered;
+    margin-bottom: 20px;
+    width: 40%;
+    padding: 2% 1%;
+}
+button:hover{
+    background-color: red;
+}

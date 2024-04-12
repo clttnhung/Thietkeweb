@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu Bar</title>
+  <link rel="stylesheet" href="./vidu.css">
+</head>
+<body>
+
+    <button id="toggleButton">Hiển thị Menu</button>
+    <nav id="menuBar">
+      <ul>
+        <li><a href="#">Mục 1</a></li>
+        <li><a href="#">Mục 2</a></li>
+        <li><a href="#">Mục 3</a></li>
+      </ul>
+    </nav>
+    <script>
+    document.getElementById('toggleButton').addEventListener('click', function() {
+        var menu = document.getElementById('menuBar');
+        menu.classList.toggle('show');
+      });
+    </script>
+    
+</body>
+</html>
+

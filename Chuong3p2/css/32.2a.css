@@ -1,0 +1,31 @@
+.row{
+    display: flex;
+    align-items: stretch;
+    font-size: 2vw;
+}
+
+.label{
+    flex: 0 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row .container{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.row .dish{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my{
+    background-color: #EE9972;
+}
+.bun{
+    background-color: #F4CE14 ;
+}
+.chao{
+    background-color: #495E57;
+}

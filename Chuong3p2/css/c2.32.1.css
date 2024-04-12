@@ -1,0 +1,85 @@
+ @media screen and (max-width: 640px) {
+    .khoichinh{
+        display: flex;
+        background-color:cadetblue;
+    }
+    form{
+        width: 100%;
+        border: 1px solid white;
+        margin: 8px;
+    }
+    .khoicon{
+        display: flex;
+        margin: 8px;
+        flex-direction: column;
+    }
+    label{
+        min-width: 100px;
+        color: white;
+    }
+    button{
+        min-width: 10px;
+    }
+    input{
+        width: 96%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .khoichinh {
+        display: flex;
+        justify-content: center;
+        background-color: blueviolet;
+    }
+
+    form {
+        width: 80%;
+        border: 1px solid white;
+        margin: 8px;
+    }
+
+    .khoicon {
+        display: flex;
+        margin: 8px;
+    }
+
+    label {
+        width: 100px;
+        color: white;
+    }
+
+    button {
+        min-width: 10px;
+    }
+
+    input {
+        flex: 1;
+    }
+} 
+
+@media screen and (min-width: 1024px) {
+    .khoichinh{
+        display: flex;
+        justify-content: center;
+        background-color: blue;
+    }
+    form{
+        width: 50%;
+        border: 1px solid white;
+        margin: 8px;
+    }
+    .khoicon{
+        display: flex;
+        margin: 8px;
+    }
+    label{
+        width: 100px;
+        color: white;
+    }
+    button{
+        min-width: 10px;
+    }
+    input{
+        flex: 1;
+    }
+}

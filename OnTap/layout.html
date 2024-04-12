@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./layout.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        $(document).ready(function () {
+            $('#toggle').click(function () {
+                $('.dauphai').slideToggle();
+            });
+        })
+    </script>
+
+    <div class="dau">
+        <div class="dautrai"><b>GREEN TREE COMPANY</b></div>
+        <div id="toggle">
+            MENU<i class="fas fa-bars"></i>
+        </div>
+        <div class="dauphai">
+            <div class="tpdau"><b>PORTFOLIO</b></div>
+            <div class="tpdau"><b>ABOUT</b></div>
+            <div class="tpdau"><b>CONTACT</b></div>
+        </div>
+    </div>
+    <div class="gthieu">
+        <img class="avt" src="./anh/avataaars.svg" alt="">
+        <div class="tenchinh"><b>GREEN TREE COMPANY</b></div>
+        <div class="ngangtrang">
+            <div>
+                <hr class="hrtrai">
+            </div>
+            <div><i class="fa-solid fa-star"></i></div>
+            <div>
+                <hr>
+            </div>
+        </div>
+        <div class="ten1">Graphic Artist - Web Designer - Illustrator</div>
+    </div>
+    <div class="gtanh">
+        <div class="ten" style="color: black; font-weight: bold;">PORTFOLIO</div>
+        <div class="ngangden">
+            <div>
+                <hr class="hrtrai" id="thanhden">
+            </div>
+            <div> <i id="saoden" class="fa-solid fa-star"></i></div>
+            <div>
+                <hr id="thanhden">
+            </div>
+        </div>
+        <div class="anh">
+            <img src="./anh/cabin.png" alt="" class="anh1">
+            <img src="./anh/cake.png" alt="" class="anh2">
+            <img src="./anh/circus.png" alt="" class="anh3">
+            <img src="./anh/game.png" alt="" class="anh4">
+            <img src="./anh/safe.png" alt="" class="anh5">
+            <img src="./anh/submarine.png" alt="" class="anh6">
+        </div>
+    </div>
+    <div class="about">
+        <div class="ten">ABOUT</div>
+        <div class="ngangtrang">
+            <div>
+                <hr class="hrtrai">
+            </div>
+            <div><i class="fa-solid fa-star"></i></div>
+            <div>
+                <hr>
+            </div>
+        </div>
+        <div class="donggt">
+            <div class="doan1">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes
+                the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for
+                easy customization.</div>
+            <div class="dong2">You can create your own custom avatar for the masthead, change the icon in the dividers,
+                and add your email address to the contact form to make it fully functional!</div>
+        </div>
+        <button class="taixuong">Free Download!</button>
+    </div>
+    <div class="ttin">
+        <div class="ten">CONTACT ME</div>
+        <div class="ngangden">
+            <div>
+                <hr class="hrtrai" id="thanhden">
+            </div>
+            <div> <i id="saoden" class="fa-solid fa-star"></i></div>
+            <div>
+                <hr id="thanhden">
+            </div>
+        </div>
+        <form action="login.aspx" method="post">
+            <div><input type="text" placeholder="Full name" required></div>
+            <div><input type="email" placeholder="Email address" required></div>
+            <div><input type="number" placeholder="Phone number" required></div>
+            <div><input type="text" class="ipmess" placeholder="Message" required></div>
+            <button>Send</button>
+        </form>
+    </div>
+    <div class="cuoi">
+        <div class="cuoitrai">
+            <div class="tencuoi">LOCATION</div>
+            <div class="ndcuoi">2215 John Daniel Drive
+                Clark, MO 65243</div>
+        </div>
+        <div class="cuoigiua">
+            <div class="tencuoi">AROUND THE WEB</div>
+            <div class="ndcuoi"></div>
+        </div>
+        <div class="cuoiphai">
+            <div class="tencuoi">ABOUT FREELANCER</div>
+            <div class="ndcuoi">Freelance is a free to use, MIT licensed Bootstrap theme created by Start Bootstrap.
+            </div>
+        </div>
+    </div>
+    <div class="nguon">Copyright © Your Website 2023</div>
+
+</body>
+
+</html>

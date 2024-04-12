@@ -1,0 +1,117 @@
+
+@media screen and (max-width: 768px) {
+    .khoitren {
+        display: flex;
+        background-color:darkblue;
+        justify-content: flex-start;
+        padding: 1%;
+    }
+    span {
+        color: white;
+        margin: 0 5%;
+        font-size: 1.5vw;
+    } 
+    form{
+        display: flex;
+    }
+    .timkiem{
+        display: flex;
+        margin-top: 20px;
+        border: solid gray;
+        border-right: none;
+        border-radius: 10px;
+        width: 30%;
+        padding: 0.5% 0 0.5% 0.5%;
+    }
+    .fa-solid{
+        font-size: 2.5vw;
+    }
+    .text{
+        border: none;
+        width: 80%;
+        font-size: 1.5vw;
+    }
+    .submit{
+        margin-top: 20px;
+        border-radius: 10px;
+        width: 7%;
+        color: white;
+        background-color:dodgerblue;
+        font-size: 1vw;
+    }
+    .anh{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .doan{
+        width: 400px; 
+        height: 250px;
+    }
+    .hang1{
+        
+        justify-content: space-between;
+    }
+    .hang2{
+        
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .khoitren {
+        display: flex;
+        background-color:darkblue;
+        justify-content: flex-start;
+        padding: 1%;
+    }
+    span {
+        color: white;
+        margin: 0 5%;
+        font-size: 1.5vw;
+    } 
+    form{
+        display: flex;
+    }
+    .timkiem{
+        display: flex;
+        margin-top: 20px;
+        border: solid gray;
+        border-right: none;
+        border-radius: 10px;
+        width: 30%;
+        padding: 0.5% 0 0.5% 0.5%;
+    }
+    .fa-solid{
+        font-size: 2.5vw;
+    }
+    .text{
+        border: none;
+        width: 80%;
+        font-size: 1.5vw;
+    }
+    .submit{
+        margin-top: 20px;
+        border-radius: 10px;
+        width: 7%;
+        color: white;
+        background-color:dodgerblue;
+        font-size: 1vw;
+    }
+    .anh{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .doan{
+        width: 400px; 
+        height: 250px;
+    }
+    .hang1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .hang2{
+        display: flex;
+        justify-content: space-between;
+    }
+}

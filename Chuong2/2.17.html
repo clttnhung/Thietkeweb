@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        header {
+            text-align: center;
+            background-color: peru;
+            width: 30%;
+            margin: auto;
+        }
+
+        main {
+            background-color: saddlebrown;
+            width: 30%;
+            margin: auto;
+        }
+
+        footer {
+            background-color: peru;
+            width: 30%;
+            margin: auto;
+        }
+
+        table {
+            margin: auto;
+            
+        }
+
+        button {
+            background-color: aquamarine;
+            margin-left: 8cm;
+        }
+
+        body {
+            color: gold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        Sign Up
+    </header>
+
+    <main>
+        <form action="" method="post">
+            <table>
+                <tr>
+                    <td> <label for="firstname">First Name</label></td>
+                    <td><input type="text" name="firstname" id="firstname" placeholder="Enter First Name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="lastname">Last Name</label></td>
+                    <td><input type="text" name="lastname" id="firstname" placeholder="Enter Last Name" required> </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth </td>
+                    <td><select id="date" name="date" required>
+                            <option value="date">Date</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <select id="month" name="month" required>
+                            <option value="Month">Month</option>
+                            <option value="Jan">Jan</option>
+                            <option value="Feb">Feb</option>
+                            <option value="Mar">Mar</option>
+                            <option value="Apr">Apr</option>
+                            <option value="May">May</option>
+                            </select>
+                            <select id="year" name="year" required>
+                            <option value="Year">Year</option>
+                            <option value="1980">1980</option>
+                            <option value="1981">1981</option>
+                            <option value="1982">1982</option>
+                            <option value="1983">1983</option>
+                            </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label>Gender</label></td>
+                    <td><input type="radio" value="male" name="gender">Male
+                        <input type="radio" value="famale" name="gender"> Famale
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label>Country</label></td>
+                    <td><select id="browser" name="browser" required>
+                            <option>Country</option>
+                            <option>Viet Nam</option>
+                            <option>Trung Quoc</option>
+                            <option>Lao</option>
+                            <option>Campuchia</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label>E-mail</label></td>
+                    <td><input type="email" placeholder="Enter E-mail" required> </td>
+                </tr>
+                <tr>
+                    <td> <label>Phone</label></td>
+                    <td><input type="number" placeholder="Enter Phone" required> </td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input type="password" required></td>
+                </tr>
+                <tr>
+                    <td><label>Confirm Password</label></td>
+                    <td><input type="password" required></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" required> I agree to the cancellation policy</td>
+                </tr>
+            </table>
+    </main>
+    <footer>
+        <button>Gửi</button>
+        <input type="reset" id="reset" style="background-color: red; margin-left: 0.2cm;" value="Cancel">
+    </footer>
+    </form>
+</body>
+
+</html>

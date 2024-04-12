@@ -1,0 +1,20 @@
+.left {
+    background-color: darksalmon;
+    float: left;
+    width: 100%;
+}
+
+
+.middle {
+    background-color: brown;
+    float: left;
+    width: 100%;
+}
+
+
+.right {
+    background-color: darkseagreen;
+    float: right;
+    width: 100%;
+}
+

@@ -1,0 +1,27 @@
+.gia{
+    font-size:25px;
+    color: red;
+    font-weight: bold;
+}
+h{
+    color: yellow;
+}
+.tg{
+    background-color:dodgerblue;
+    color: white;
+    border-radius: 2px;
+    padding: 0 10px;
+}
+.thang{
+   color: rgb(0, 145, 255);
+   font-weight: bold;
+}
+.hoicham{
+    color: rgb(0, 123, 255);
+}
+.tk{
+    color: red;
+}
+.tietkiem{
+    color: gray;
+}

@@ -1,0 +1,43 @@
+.khoi{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows: 30% 25% 25% 10%;
+    text-align: center;
+    gap:5% 2.5%;
+}
+.noidung{
+    font-size: 20px;
+}
+h1{
+    font-size: 30px;
+}
+.item{
+    background-color: #F8F9FA;
+    padding: 0 5%;
+}
+.o1{
+    background-color: #F8F9FA ;
+    grid-column: 1/4;
+}
+.o8{
+    grid-column: 1/4;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    padding: 3%;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #0D6EFD;
+    padding: 10px;
+    margin-top: 20px;
+}
+i{
+    padding: 10px;
+    background-color: #0D6EFD;
+    color: white;
+    border-radius: 5px;
+}

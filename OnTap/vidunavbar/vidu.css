@@ -1,0 +1,8 @@
+#menuBar {
+    display: none;
+  }
+  
+  #menuBar.show {
+    display: block;
+  }
+  

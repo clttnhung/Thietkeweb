@@ -1,0 +1,73 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #f2f3f5;
+    color: #999;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+
+/* Layout */
+.service {
+    margin: 30px auto;
+    width: 95%;
+}
+
+
+.service h2 {
+    color: #1f1f1f;
+    font-size: 40px;
+    margin-bottom: 17px;
+    text-align: center;
+}
+
+
+.service .service-list {
+    display: flex;    
+    justify-content: space-between;
+}
+
+
+.service .lead-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.service .service-list li {    
+    background-color: #fff;
+    flex-basis: 28%;
+    padding: 12px 15px;
+}
+
+
+.service .service-list li h3 {
+    color: #1f1f1f;
+    font-size: 24px;
+    margin-bottom: 3px;
+}
+
+
+.service .service-list .service-image>img {
+    width: 100%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    .service .service-list li {
+        margin-top: 30px;
+    }
+    .service .service-list {
+        display: flex;
+        flex-direction: column;
+    }
+}

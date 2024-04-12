@@ -1,0 +1,48 @@
+body{
+    background-color:#D1E8FF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.khoichinh{
+    display: flex;
+    background-color: white;
+    margin: 13% 10%;
+    border-radius: 10px;
+    box-shadow:   0 2px 3px 2px #AAA;
+}
+.benphai{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.bentrai{
+    width: 60%;
+    text-align: center;
+    padding: 8% 0;
+}
+input{
+    border: none;
+    color:#636C72;
+    background-color:aliceblue;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 430px;
+    padding: 13px 5px 13px 15px;
+}
+.ip3{
+    padding-bottom: 50px;
+}
+.tieude{
+    color: #2470C2;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    background-color: #2470C2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 450px;
+    padding: 10px 5px 10px 15px;
+    font-size: 15px;
+}
